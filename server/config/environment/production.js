@@ -15,10 +15,11 @@ module.exports = {
 
   // MongoDB connection options
   mongo: {
-    uri:    'mongodb://dbuser:dbpassword@ds017514.mlab.com:17514/heroku_94r929qx' || 
-             process.env.OPENSHIFT_MONGODB_DB_URL || // Added app
+    uri:    'mongodb://dbuser:dbpassword@ds017514.mlab.com:17514/heroku_94r929qx' ||
             'mongodb://localhost/shopnx'
   },
 
   seedDB: true
 };
+
+ /* process.env.OPENSHIFT_MONGODB_DB_URL || // Added app*/

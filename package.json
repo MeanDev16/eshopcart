@@ -103,7 +103,7 @@
     "should": "~11.1.0"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=0.10.0 <=6"
   },
   "scripts": {
     "start": "node server/app.js",
